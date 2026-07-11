@@ -173,7 +173,7 @@ function BudgetTape({ c, spent, budget, dark }) {
         <div className="absolute inset-0 flex items-center justify-between px-2.5 text-[11px] font-bold"
           style={{ fontFamily: FONT_MONO, fontVariantNumeric: "tabular-nums", color: dark ? "#fff" : "#fff", textShadow: "0 1px 2px rgba(0,0,0,0.4)" }}>
           <span>{inr(spent)}</span>
-          <span style={{ color: c.ink, textShadow: "none" }}>{budget > 0 ? inr(budget) : "no budget set"}</span>
+          <span style={{ color: c.ink, textShadow: "none" }}>{budget > 0 ? inr(budget) : "No Budget Set"}</span>
         </div>
       </div>
     </div>
