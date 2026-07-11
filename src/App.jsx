@@ -486,7 +486,7 @@ export default function App() {
         <div className="flex-1 min-w-0 flex flex-col">
           {/* Mobile top bar */}
           <div className="md:hidden flex items-center justify-between px-4 py-3" style={{ borderBottom: `1px solid ${c.border}`, background: c.surface }}>
-            <Brand c={c} compact />
+            <Brand c={c} />
             <button onClick={toggleTheme} className="p-2 rounded-lg" style={{ background: c.surfaceAlt }}>
               {dark ? <Sun size={18} /> : <Moon size={18} />}
             </button>
